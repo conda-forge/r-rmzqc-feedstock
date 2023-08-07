@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rmzqc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rmzqc/rmzqc_{{ version }}.tar.gz
-  sha256: facf979d96583fd67fab45ccc7a3c88ed5db0f9dcecf3557482d3286071b9d2d
+  sha256: b53b6e245310f48da55e3fca07844d9b2f75566575c3fb31888f811324673dec
 
 build:
   merge_build_host: true  # [win]
