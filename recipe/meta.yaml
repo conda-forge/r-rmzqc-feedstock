@@ -1,4 +1,4 @@
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rmzqc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rmzqc/rmzqc_{{ version }}.tar.gz
-  sha256: f037ec5ecf338d70aa8d7e032a40acebbff67269ab53cc5f977fa7ca862bc452
+  sha256: 73a60b183cc4fbad4f45107ca182200403df0f7215ae8098d6fdee5e1b5962cb
 
 build:
   number: 0
